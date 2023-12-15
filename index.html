@@ -10,103 +10,142 @@
 </head>
 
 <body class="bg-light">
-    <div class="container-fluid bg-black">
-        <h1 class="text-white p-3 m-0 text-center">Bootstrap es feilho</h1>
+    <div id="header" class="container-fluid bg-black">
+        <h1 class="text-white p-3 m-0 text-center">Práctica Bootstrap</h1>
     </div>
     <div class="d-flex flex-column text-center text-black container-fluid mt-4 mb-5 gap-3 py-4"
-        style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F196%2F579%2Foriginal%2Fmodern-abstract-geometric-background-free-vector.jpg&f=1&nofb=1&ipt=08b683d71cd4842490c4583aa4a41cc3a3b7965c58b92d7be21e39e958129b92&ipo=images); background-attachment: fixed; background-position: center;">
-        <h2 class="display-2"><strong>El grinch papaaaa</strong></h2>
+        style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F833%2F489%2Fnon_2x%2Fblack-abstract-background-with-diamond-shape-layers-vector.jpg&f=1&nofb=1&ipt=b33ecd31344cc4ddf40e61e78e53cf52c07115017de0d52449399c8301464bac&ipo=images); background-attachment: fixed; background-position: center;">
+        <h2 class="display-2 text-white"><strong>Películas famosas</strong></h2>
         <div class="container">
-            <p class="" style="font-size: 20px;">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, sunt sapiente ipsam repellendus debitis,
-                corrupti ratione sit, vel aperiam reiciendis labore repudiandae saepe obcaecati atque architecto! Optio
-                culpa dignissimos enim?
+            <p class="text-white" style="font-size: 20px;">
+                A todos nos encantan las películas y muchas de ellas han inlfuido en nuestra infancia o personalidad.
+                Buscamos refrescar la memoria de todos vosotros, listando varias películas icónicas o actuales pero muy
+                conocidas.
             </p>
         </div>
         <div class="container"><a href="#contenido" class="btn btn-primary ">Ver contenido</a></div>
     </div>
     <div>
-        <h2 id="contenido" class="text-center text-black p-3 m-0 display-5 text-we">Mr. Conan</h2>
+        <h2 id="contenido" class="text-center text-black p-3 m-0 display-5 text-we">Listado de películas</h2>
         <div class="d-flex justify-content-around flex- container-fluid pb-5 px-3 gap-1 flex-wrap">
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="data:image/jpeg;base64,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"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">El bueno, el feo y el malo</h4>
+                    <p class="card-text">Los protagonistas son tres cazadores de recompensas que buscan un tesoro que
+                        ninguno de ellos puede encontrar sin la ayuda de los otros dos. Así que los tres colaboran entre
+                        sí, al menos en apariencia.</p>
                 </div>
             </div>
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.zdJESh6kukiwwo-Q5sGWYwHaEK%26pid%3DApi&f=1&ipt=321e8980196f52f2a019ec608b743c854557ed3142bda2d94596a9d914e7f04a&ipo=images"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">El Padrino</h4>
+                    <p class="card-text">El padrino es una película estadounidense de 1972 dirigida por Francis Ford
+                        Coppola. La película fue producida por Albert S. Ruddy, de la compañía Paramount Pictures. Está
+                        basada en la novela homónima, de Mario Puzo, quien adaptó el guion junto a Coppola y Robert
+                        Towne, este último sin ser acreditado.
+                    </p>
                 </div>
             </div>
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.xQlyhvENC_E4pR0FJxGvNQHaEK%26pid%3DApi&f=1&ipt=0a221d081ac62accacf6d488c1f48402d513e3b176f738b3a22625ffbfdfa73f&ipo=images"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">Jumanji</h4>
+                    <p class="card-text">Jumanji es una película estadounidense de 1995 dirigida por Joe Johnston y
+                        protagonizada por Robin Williams, Bonnie Hunt, Kirsten Dunst y Bradley Pierce. Está basada en un
+                        relato infantil de 32 páginas publicado por Chris Van Allsburg en 1981 y que recibió el premio
+                        National Book Award en la categoría Ilustración y la medalla Randolph Caldecott al Mejor libro
+                        ilustrado.</p>
                 </div>
             </div>
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIF.eT%252b225UlimCZDhXTOl2jQw%26pid%3DApi&f=1&ipt=37065fed4088c7015b0f060469956f79f9e68558a5845fe5a5b4524e1bfb4d9c&ipo=images"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">Willy Wonka y la fábrica de chocolate</h4>
+                    <p class="card-text">Charlie y la fábrica de chocolate es una película musical de cine fantástico
+                        británico-estadounidense-australiana de 2005, dirigida por Tim Burton. Es la segunda adaptación
+                        cinematográfica de la novela homónima escrita por Roald Dahl en 1964, y está protagonizada por
+                        Johnny Depp como Willy Wonka y Freddie Highmore como Charlie Bucket. </p>
                 </div>
             </div>
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.nxhnV6VPRPxM8kzcTc4Z-wHaEc%26pid%3DApi&f=1&ipt=c9e30b99486d07566f745da42b513f6bc8741f9915c9a9077c9ef67d4f4e62d4&ipo=images"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">Dragon Ball Super: Broly</h4>
+                    <p class="card-text">La Tierra vive en paz después de que concluyó el Torneo de Fuerza. Luego de
+                        darse cuenta que los Universos aún tienen muchos guerreros poderosos, Gokú pasa todos los días
+                        entrenando para alcanzar un nivel de pelea mayor. Un día Gokú y Vegeta enfrentan a un nuevo
+                        saiyajin llamado “Broly”, a quien nunca antes han visto.</p>
                 </div>
             </div>
             <div class=" card my-3 col-md-3">
                 <img class="card-img-top"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasfuriasmagazine.com%2Fwp-content%2Fuploads%2F2020%2F12%2FEl_Grinch-2000-1.jpg&f=1&nofb=1&ipt=6a8dab370f32d50d1fa50117ad18f066eca69bdc8c39e5ca387f18240ea6fa14&ipo=images"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kfGrxivr_pUxUEwy7I_DvQHaEK%26pid%3DApi&f=1&ipt=ec28a2c24c02ae83b3e029b15eb65a610b27b2c79fa3215c3b8cace69bd104c5&ipo=images"
                     alt="Title">
                 <div class="card-body">
-                    <h4 class="card-title mt-500">Grinch</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem vel
-                        deserunt
-                        culpa quo quis est doloribus corporis, amet ipsa magnam magni aut eveniet dicta maxime numquam
-                        facere expedita! Libero.
-                        Sed cum recusandae at iste tem</p>
+                    <h4 class="card-title mt-500">Shrek</h4>
+                    <p class="card-text">Un ogro llamado Shrek vive en su pantano, pero su preciada soledad se ve
+                        súbitamente interrumpida por la invasión de los ruidosos personajes de los cuentos de hadas.
+                        Todos fueron expulsados de sus reinos por el malvado Lord Farquaad. Decidido a salvar su hogar,
+                        Shrek hace un trato con Farquaad y junto a burro se prepara para rescatar a la princesa Fiona,
+                        quien será la esposa de Farquaad. </p>
+                </div>
+            </div>
+            <div class=" card my-3 col-md-3">
+                <img class="card-img-top"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BNYYrxd0UErPw7Y6faDjzAHaEK%26pid%3DApi&f=1&ipt=f72bb07e585912d5b05fe1760505390b90387865e8bf7bc1c83f27ed0a624c23&ipo=images"
+                    alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title mt-500">One Piece Film: Red</h4>
+                    <p class="card-text">One Piece Film: Red Una película de el animanga One piece,la cual sólo se ha
+                        confirmado con un trailer en YouTube totalmente oficial la semana pasada y tendrá su estreno en
+                        2022. Está película tendrá como protagonista a Shanks uno de los 4 yonkou,todavia no se sabe si
+                        será canon o no. </p>
+                </div>
+            </div>
+            <div class=" card my-3 col-md-3">
+                <img class="card-img-top"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xBbMKmxdf0LF-n9aZ40s-AHaFZ%26pid%3DApi&f=1&ipt=762b7f2007df2128c413466fb2151f38f85614b163d82636786ac4f5fdf0f72d&ipo=images"
+                    alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title mt-500">El número 23</h4>
+                    <p class="card-text">Walter Sparrow es un padre de familia no muy aficionado a la lectura. Sin
+                        embargo, cuando su esposa le regala una novela que compra en una librería de segunda mano,
+                        decide leerla. Lo que no pensaba es que ese libro fuese a cambiar su vida de manera radical.
+                    </p>
+                </div>
+            </div>
+            <div class=" card my-3 col-md-3">
+                <img class="card-img-top"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.MVARKIBANIK0rslgCj43OAHaD5%26pid%3DApi&f=1&ipt=0f74b5edd935a407a716c64a1c3fb7c4c2ece7a8d0b447383e23a0d3e80f0b11&ipo=images"
+                    alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title mt-500">Madagascar</h4>
+                    <p class="card-text">La cinta cuenta la historia de cuatro divertidos animales del zoo de Central
+                        Park, Nueva York, (Alex el león, Marty la cebra, Gloria la hipopótamo y Melman la jirafa).
+                        Llevan toda su vida encerrados en cautividad sin poder experiemtnar el sabor de la libertad y se
+                        han propuesto idear un plan para salir de allí juntos. </p>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid p-4 text-center" style="background-color: #222;">
+        <span class="text-white m-4 " style="font-size: x-large;">Página hecha por Emanuel Asandei y Mario
+            Campos &COPY;
+        </span>
+        <br>
+        <a href="#header" class="btn btn-primary m-3">Ir arriba</a>
     </div>
 </body>
 
